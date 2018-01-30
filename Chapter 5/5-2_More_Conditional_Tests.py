@@ -55,4 +55,9 @@ print("Is " + str(age_0) + " less than " + str(age_1) + "?")
 print(age_0 < age_1)
 
 # Test whether an item is in a list
-Test
+thing = 'thing_2'
+list_of_things = ['thing_0','thing_1','thing_2','thing_3']
+if thing in list_of_things:
+    print(thing + " is in the 'list_of_things'.")
+else:
+    print(thing + " is NOT in the 'list_of_things'.")
