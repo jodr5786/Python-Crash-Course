@@ -1,12 +1,24 @@
-def show_magicians(names):
+def show_magicians(magicians):
     """Prints a list of magician's names."""
     print("List of magician names:")
-    for name in names:
-        print(name.title())
+    for magician in magicians:
+        print(magician.title())
 
-def make_great():
+def make_great(magicians):
     """Adds "the Great" to the end of each magician's name."""
+    great_magicians = []
 
-magician_names = ['houdini', 'david copperfield', 'prestige']
-show_magicians(magician_names)
+    while magicians:
+        magician = magicians.pop()
+        great_magician = magician + ' the Great'
+        great_magicians.append(great_magician)
+
+
+magicians = ['houdini', 'david copperfield', 'prestige']
+show_magicians(magicians)
+
+print("\n")
+
+make_great(magicians)
+show_magicians(magicians)
         
