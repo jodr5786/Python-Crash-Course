@@ -12,9 +12,11 @@ def make_great(magicians):
         magician = magicians.pop()
         great_magician = magician + ' the Great'
         great_magicians.append(great_magician)
+    
+    for great_magician in great_magicians:
+        magicians.append(great_magician)
 
-
-magicians = ['houdini', 'david copperfield', 'prestige']
+magicians = ['houdini', 'david copperfield', 'blaine']
 show_magicians(magicians)
 
 print("\n")
