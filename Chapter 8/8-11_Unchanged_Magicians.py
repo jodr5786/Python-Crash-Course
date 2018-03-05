@@ -14,12 +14,16 @@ def make_great(magicians):
     
     for great_magician in great_magicians:
         magicians.append(great_magician)
+    
+    return magicians
 
 magicians = ['Harry Houdini', 'David Copperfield', 'David Blaine']
 show_magicians(magicians)
 
-print("\n")
+print("\nGreat Magicians:")
+great_magicians = make_great(magicians[:])
+show_magicians(great_magicians)
 
-make_great(magicians)
+print("\nOriginal Magicians:")
 show_magicians(magicians)
         
