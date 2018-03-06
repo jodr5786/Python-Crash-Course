@@ -9,9 +9,9 @@ def make_car(manufacturer, model_name, **optional_features):
 
 car = make_car ('Ford', 
                 'F150',
-                towing_package = 'yes',
+                towing_package = 'True',
                 engine = 'ecoboost',
-                sport_package = 'yes',)
+                sport_package = 'True',)
 
 print(car)
 
