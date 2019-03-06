@@ -20,7 +20,3 @@ while True:
 
     album = make_album(artist.title(), title.title())
     print(album)
-
-
-
-    

@@ -1,0 +1,4 @@
+In Python you can write scripts.
+In Python you can write programs.
+In Python you can do data science.
+In Python you can write the backend code for web sites.
